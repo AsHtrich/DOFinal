@@ -1,5 +1,8 @@
 pipeline {
     agent any
+    triggers {
+    githubPush()
+  }
 
     environment {
         DOCKER_IMAGE = "my-app"
