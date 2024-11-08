@@ -8,7 +8,7 @@ pipeline {
         DOCKER_IMAGE = "my-app"
         DOCKER_TAG = "${GIT_COMMIT}"
         REGISTRY = "docker.io"
-        REPO = "ashtrich/DOFinal"
+        REPO = "ashtrich/my-app"
     }
 
     stages {
